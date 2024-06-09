@@ -1,0 +1,72 @@
+Date : 2024-06-10 01:11:39
+Directory : /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller
+Total : 39 files,  3188 codes, 171 comments, 797 blanks, all 4156 lines
+
+Languages
++--------------+------------+------------+------------+------------+------------+
+| language     | files      | code       | comment    | blank      | total      |
++--------------+------------+------------+------------+------------+------------+
+| Python       |         35 |      3,048 |        153 |        749 |      3,950 |
+| Markdown     |          1 |         99 |          0 |         30 |        129 |
+| Shell Script |          3 |         41 |         18 |         18 |         77 |
++--------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                       | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                          |         39 |      3,188 |        171 |        797 |      4,156 |
+| . (Files)                                                                                                  |          3 |        477 |         42 |        135 |        654 |
+| crd                                                                                                        |          3 |        183 |         15 |         45 |        243 |
+| dataset                                                                                                    |          2 |        362 |          6 |         77 |        445 |
+| distiller_zoo                                                                                              |         14 |        387 |         36 |        114 |        537 |
+| helper                                                                                                     |          4 |        324 |         22 |         77 |        423 |
+| models                                                                                                     |         10 |      1,414 |         32 |        331 |      1,777 |
+| scripts                                                                                                    |          3 |         41 |         18 |         18 |         77 |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| filename                                                                                                   | language     | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/README.md                            | Markdown     |         99 |          0 |         30 |        129 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/crd/__init__.py                      | Python       |          0 |          0 |          1 |          1 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/crd/criterion.py                     | Python       |         79 |          3 |         21 |        103 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/crd/memory.py                        | Python       |        104 |         12 |         23 |        139 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/dataset/cifar100.py                  | Python       |        175 |          4 |         35 |        214 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/dataset/imagenet.py                  | Python       |        187 |          2 |         42 |        231 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/distiller_zoo/AB.py                  | Python       |         22 |          2 |          6 |         30 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/distiller_zoo/AT.py                  | Python       |         23 |          0 |          7 |         30 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/distiller_zoo/CC.py                  | Python       |         13 |         23 |          7 |         43 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/distiller_zoo/FSP.py                 | Python       |         41 |          0 |          8 |         49 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/distiller_zoo/FT.py                  | Python       |         25 |          0 |          7 |         32 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/distiller_zoo/FitNet.py              | Python       |         10 |          0 |          5 |         15 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/distiller_zoo/KD.py                  | Python       |         13 |          0 |          5 |         18 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/distiller_zoo/KDSVD.py               | Python       |         59 |          0 |         17 |         76 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/distiller_zoo/NST.py                 | Python       |         33 |          1 |          8 |         42 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/distiller_zoo/PKT.py                 | Python       |         26 |          5 |         12 |         43 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/distiller_zoo/RKD.py                 | Python       |         41 |          2 |         16 |         59 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/distiller_zoo/SP.py                  | Python       |         21 |          2 |          8 |         31 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/distiller_zoo/VID.py                 | Python       |         47 |          1 |          7 |         55 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/distiller_zoo/__init__.py            | Python       |         13 |          0 |          1 |         14 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/helper/__init__.py                   | Python       |          0 |          0 |          1 |          1 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/helper/loops.py                      | Python       |        200 |         19 |         45 |        264 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/helper/pretrain.py                   | Python       |         78 |          3 |         14 |         95 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/helper/util.py                       | Python       |         46 |          0 |         17 |         63 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/models/ShuffleNetv1.py               | Python       |        116 |          1 |         22 |        139 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/models/ShuffleNetv2.py               | Python       |        172 |          9 |         30 |        211 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/models/__init__.py                   | Python       |         31 |          0 |          2 |         33 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/models/classifier.py                 | Python       |         20 |          3 |         13 |         36 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/models/mobilenetv2.py                | Python       |        152 |          9 |         42 |        203 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/models/resnet.py                     | Python       |        195 |          1 |         61 |        257 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/models/resnetv2.py                   | Python       |        161 |          3 |         35 |        199 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/models/util.py                       | Python       |        240 |          0 |         51 |        291 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/models/vgg.py                        | Python       |        193 |          1 |         43 |        237 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/models/wrn.py                        | Python       |        134 |          5 |         32 |        171 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/scripts/fetch_pretrained_teachers.sh | Shell Script |         21 |          1 |          9 |         31 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/scripts/run_cifar_distill.sh         | Shell Script |         14 |         16 |          2 |         32 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/scripts/run_cifar_vanilla.sh         | Shell Script |          6 |          1 |          7 |         14 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/train_student.py                     | Python       |        258 |         28 |         62 |        348 |
+| /home/ZIYIAP/Documents/OneDrive_local/code/distiller/CRD_RepDistiller/train_teacher.py                     | Python       |        120 |         14 |         43 |        177 |
+| Total                                                                                                      |              |      3,188 |        171 |        797 |      4,156 |
++------------------------------------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
